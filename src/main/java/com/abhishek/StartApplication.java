@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Siva Chandrasekhar J");
-        model.addAttribute("msg", "07-02-2025 | SpringBoot Application Deployment - Done");
+        model.addAttribute("title", "Ascus Tech");
+        model.addAttribute("msg", "Deployment Done");
         return "index";
     }
 
