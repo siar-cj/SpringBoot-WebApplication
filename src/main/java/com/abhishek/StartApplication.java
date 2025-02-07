@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "This is a SpringBoot Static Web Application");
-        model.addAttribute("msg", "Application Is Deployed To Kuberneets");
+        model.addAttribute("title", "Siva Chandrasekhar J");
+        model.addAttribute("msg", "07-02-2025 | SpringBoot Application Deployment - Done");
         return "index";
     }
 
